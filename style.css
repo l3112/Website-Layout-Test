@@ -1,0 +1,69 @@
+header{
+    height: 200px;;
+    display: flex;
+    justify-content: left;
+    align-content: left;
+    background: url('./act2.JPG');
+    background-size: cover;
+    color: white; 
+    font-size: 50px; 
+    padding: 40px 0px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.about {
+    background: url('.lapstick.jpg');
+    background-size: cover;
+    height: 300vh;
+    display: flex;
+
+}
+
+.about-title{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.about-pages{
+    width: 50%;
+    background-color:aliceblue;
+    
+
+}
+/* frankly, these should be classes  */
+.about-pages div{
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+/* this is optional */
+
+.about-pages div> p {
+    width: 80%;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+
+.about-pages div:nth-child(1){
+    background-color: dimgray;
+    color: white;
+}
+
+.footer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    
+}
